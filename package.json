@@ -1,6 +1,6 @@
 {
   "name": "@jimpick/filecoin-pickaxe-mineshaft-context",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React context provider for the mineshaft",
   "main": "dist/mineshaftContext.js",
   "module": "./mineshaftContext.js",
@@ -12,14 +12,14 @@
   "keywords": [],
   "author": "Jim Pick (@jimpick)",
   "license": "MIT",
-  "dependencies": {
-    "@jimpick/filecoin-pickaxe-mineshaft": "^0.0.2",
+  "peerDependencies": {
+    "@jimpick/filecoin-pickaxe-mineshaft": "^0.0.9",
     "react": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0"
   },
   "babel": {
